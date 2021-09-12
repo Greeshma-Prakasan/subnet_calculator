@@ -13,7 +13,6 @@ sub = tk.StringVar(root)
 nwadr = tk.StringVar(root)
 bdadr = tk.StringVar(root)
 no_host = tk.StringVar(root)
-# rng = tk.StringVar(root)
 
 
 def clean():
@@ -24,7 +23,6 @@ def clean():
     nwadr.set('')
     bdadr.set('')
     no_host.set('')
-    # rng.set('')
 
 
 def main_sub_calc():
